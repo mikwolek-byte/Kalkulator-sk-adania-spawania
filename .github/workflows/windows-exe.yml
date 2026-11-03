@@ -6,6 +6,8 @@ on:
     paths: ['.github/workflows/windows-exe.yml']
 permissions:
   contents: read
+env:
+  PYTHONUTF8: '1'
 jobs:
   build:
     runs-on: windows-latest

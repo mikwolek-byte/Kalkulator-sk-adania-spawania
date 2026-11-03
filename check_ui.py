@@ -8,4 +8,4 @@ assert not app.exception,str(app.exception)
 assert len(app.metric)==4
 assert app.metric[0].value=='0.67',app.metric[0].value
 assert app.metric[1].value=='0.50',app.metric[1].value
-print('UI OK: zatwierdzanie i wyniki składania/spawania')
+print('UI OK: approval and assembly/welding results')

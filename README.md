@@ -6,7 +6,7 @@ Lokalna aplikacja Python / Streamlit do obliczania składania i spawania. Normy 
 
 **Windows EXE:** w zakładce Actions otwórz zakończony proces Windows EXE i pobierz artefakt KalkulatorZekon-Windows, rozpakuj ZIP i uruchom `KalkulatorZekon.exe`. Uruchom plik — Python nie jest potrzebny. Kalkulator otwiera się lokalnie w domyślnej przeglądarce. Okno konsoli musi pozostać otwarte. Zamknij je, aby zakończyć program. Pierwszy start jednoplikowej aplikacji może potrwać dłużej, ponieważ rozpakowuje zależności do katalogu tymczasowego.
 
-GitHub Actions `Windows EXE` buduje plik, wykonuje testy i publikuje plik w nowym wydaniu Releases. Kod źródłowy można uruchomić również jak poniżej.
+GitHub Actions `Windows EXE` buduje plik, wykonuje testy i udostępnia EXE jako artefakt procesu. Proces ma tylko odczyt repozytorium. Kolejne wersje można budować przyciskiem Run workflow w zakładce Actions. Kod źródłowy można uruchomić również jak poniżej.
 
 Windows: zainstaluj Python 3.11 lub 3.12 i uruchom `uruchom.bat`. Pierwsze uruchomienie pobiera zależności. Aplikacja otworzy się w przeglądarce na tym komputerze.
 
